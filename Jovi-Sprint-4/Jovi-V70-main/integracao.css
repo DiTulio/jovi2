@@ -1,0 +1,41 @@
+.python-home-card {
+  padding: 16px;
+  margin-bottom: 18px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  color: var(--text);
+}
+.python-home-card h2 { font-size: 16px; margin: 0 0 8px; }
+.python-home-card p { font-size: 12px; line-height: 1.5; margin: 0 0 12px; color: var(--text3); }
+.python-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.python-btn {
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 13px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: #6f5ce8;
+  color: #fff;
+  cursor: pointer;
+}
+.python-btn.secondary { color: var(--text); background: var(--surface); border-color: var(--border); }
+.python-btn:disabled { opacity: .45; cursor: default; }
+.python-btn:focus-visible, .python-link:focus-visible { outline: 3px solid #00dfa2; outline-offset: 3px; }
+.python-scroll { overflow-y: auto; overflow-x: hidden; flex: 1; padding: 18px 20px 30px; color: var(--text); }
+.python-scroll h1 { font-size: 23px; margin: 18px 0 8px; }
+.python-scroll h2 { font-size: 17px; margin: 0 0 12px; }
+.python-scroll h3 { font-size: 14px; line-height: 1.5; margin: 8px 0; }
+.python-muted { color: var(--text3); font-size: 12px; line-height: 1.6; margin-bottom: 14px; }
+.python-section { margin-top: 24px; }
+.python-record { border: 1px solid var(--border); border-radius: 14px; padding: 14px; margin-bottom: 10px; background: var(--surface); overflow-wrap: anywhere; }
+.python-date { color: var(--text3); font-size: 11px; line-height: 1.5; }
+.python-text { font-size: 13px; line-height: 1.6; white-space: pre-wrap; }
+.python-score { font-size: 12px; color: var(--text); margin-top: 12px; font-weight: 600; }
+.python-link { display: inline-block; margin-top: 10px; color: #9382ff; font-size: 12px; }
+.python-pagination { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.python-pagination[hidden], #python-clear[hidden] { display: none; }
+.python-status { font-size: 12px; padding: 8px 0; line-height: 1.5; color: var(--text); }
+.python-status.python-error { color: #ff657c; }
+#python-content { margin-top: 20px; }

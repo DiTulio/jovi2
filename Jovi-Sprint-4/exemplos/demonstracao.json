@@ -1,0 +1,77 @@
+{
+  "sistema": "Jovi V70",
+  "versao_integracao": 2,
+  "usuario": "demonstracao",
+  "exportado_em": "2026-11-10T03:34:45+00:00",
+  "perfil": {
+    "materias": {
+      "Matemática": {
+        "Geometria Plana": {
+          "flashcards": [
+            [
+              "Fórmula da área de um triângulo?",
+              "A = (base x altura) / 2",
+              [
+                3,
+                1
+              ]
+            ]
+          ],
+          "questoes": [
+            [
+              "Fórmula da área de um círculo?",
+              [
+                "A = 2πr",
+                "A = πr²"
+              ],
+              1
+            ]
+          ]
+        }
+      },
+      "Física": {
+        "Leis de Newton": {
+          "flashcards": [
+            [
+              "O que diz a 1ª Lei de Newton?",
+              "Inércia.",
+              [
+                0,
+                0
+              ]
+            ]
+          ],
+          "questoes": [
+            [
+              "Fórmula da 2ª Lei de Newton?",
+              [
+                "F = m . a",
+                "V = v0 + at"
+              ],
+              0
+            ]
+          ]
+        }
+      }
+    },
+    "modo_estudo": false,
+    "anotacoes": [
+      {
+        "data": "2026-11-10T03:00:00+00:00",
+        "materia": "Matemática",
+        "topico": "Geometria Plana",
+        "texto": "DADOS FICTÍCIOS DE DEMONSTRAÇÃO. Área do triângulo = base × altura / 2."
+      }
+    ],
+    "simulados": [
+      {
+        "data": "2026-11-10T03:00:00+00:00",
+        "materia": "Física",
+        "topico": "Leis de Newton",
+        "acertos": 1,
+        "total": 1
+      }
+    ],
+    "pesquisas": []
+  }
+}
